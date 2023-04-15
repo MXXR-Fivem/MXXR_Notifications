@@ -28,7 +28,7 @@ RegisterCommand('amazon', function(source, args, rawCommand)
     local xPlayers	= ESX.GetPlayers()
     local xPlayer = ESX.GetPlayerFromId(source)
     for i=1, #xPlayers, 1 do
-		TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Amazon', xPlayer.getName(), ''..rawCommand:sub(8)..'', 'CHAR_BEVERLY', 0)
+	TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Amazon', xPlayer.getName(), ''..rawCommand:sub(8)..'', 'CHAR_BEVERLY', 0)
     end
 end, false)
 
@@ -36,7 +36,7 @@ RegisterCommand('insta', function(source, args, rawCommand)
     local xPlayers	= ESX.GetPlayers()
     local xPlayer = ESX.GetPlayerFromId(source)
     for i=1, #xPlayers, 1 do
-		TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Instagram', xPlayer.getName(), ''..rawCommand:sub(7)..'', 'CHAR_BARRY', 0)
+	TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Instagram', xPlayer.getName(), ''..rawCommand:sub(7)..'', 'CHAR_BARRY', 0)
     end
 end, false)
 
@@ -44,6 +44,6 @@ RegisterCommand('ano', function(source, args, rawCommand)
     local xPlayers	= ESX.GetPlayers()
     local xPlayer = ESX.GetPlayerFromId(source)
     for i=1, #xPlayers, 1 do
-		TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Anonyme', '', ''..rawCommand:sub(5)..'', 'CHAR_ARTHUR', 0)
+	TriggerClientEvent('esx:showAdvancedNotification', xPlayers[i], 'Anonyme', '', ''..rawCommand:sub(5)..'', 'CHAR_ARTHUR', 0)
     end
 end, false)
